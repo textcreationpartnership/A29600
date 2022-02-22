@@ -1,0 +1,893 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Britannia victrix, or, The Triumphs of the Royal Navy in the late victorious ingagement with the French fleet May, 1692 a pindarick poem.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A29600</idno>
+            <idno type="STC">Wing B4818</idno>
+            <idno type="EEBO-CITATION">10624252</idno>
+            <idno type="OCLC">ocm 10624252</idno>
+            <idno type="VID">204709</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A29600)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 204709)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1399:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Britannia victrix, or, The Triumphs of the Royal Navy in the late victorious ingagement with the French fleet May, 1692 a pindarick poem.</title>
+               </titleStmt>
+               <extent>14 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for R. Taylor,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History, Naval --  Stuarts, 1603-1714 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-10</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2012-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2013-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-06</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-06</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:204709:1"/>
+            <pb facs="tcp:204709:1" rendition="simple:additions"/>
+            <p>Britannia Victrix: OR, THE TRIUMPHS OF THE ROYAL NAVY, In the late <hi>Victorious Ingagement</hi> with the FRENCH FLEET <hi>MAY,</hi> 1692.</p>
+            <p>A Pindarick POEM.</p>
+            <q>
+               <l>—Domitoſque Herculea manu</l>
+               <l>Telluris Juvenes, unde Periculum</l>
+               <l>Fulgens contremuit Domus</l>
+               <l>Saturnis Veteri.—</l>
+               <bibl>
+                  <hi>Hor. lib. 2. Ode 12.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>R. Taylor</hi> near <hi>Stationers-Hall,</hi> 1692.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:204709:2"/>
+            <pb n="1" facs="tcp:204709:2"/>
+            <head>Britannia Victrix:</head>
+            <lg n="1">
+               <head>I.</head>
+               <l>FOrbear a while, my deareſt Friend, forbear,</l>
+               <l>With more <hi>glad Tidings</hi> to <hi>regale</hi> my <hi>ear,</hi>
+               </l>
+               <l>Leaſt <hi>crouding Tales</hi> of <hi>new Succeſs,</hi>
+               </l>
+               <l>Which to my <hi>Thoughts</hi> ſo faſt their <hi>Welcome</hi> preſs,</l>
+               <l>Should even the <hi>Pleaſure of the Mind deſtroy,</hi>
+               </l>
+               <l>And my <hi>Soul</hi> ſink beneath the <hi>mighty Joy;</hi>
+               </l>
+               <l>Gently, and by degrees relate,</l>
+               <l>The <hi>Gallick-Fleet</hi>'s Inglorious Fate<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>;</l>
+               <l>But let not from thy <hi>Lab'ring Tongue,</hi>
+               </l>
+               <l>So very quick the welcome <hi>Accents Throng,</hi>
+               </l>
+               <l>Tho ſweet are all the <hi>Tidings of thy Breath,</hi>
+               </l>
+               <l>I would not be with <hi>Roſes preſt to Death,</hi>
+               </l>
+               <l>Some <hi>Gall</hi> in all our <hi>Pleaſures</hi> Fate Diſtills,</l>
+               <l>And <hi>Joy</hi> wound up too high, too often Kills:</l>
+               <l>So when <hi>Diagoras</hi> of <hi>Old,</hi>
+               </l>
+               <l>Whoſe <hi>three brave Sons</hi> had won <hi>immortal Fame,</hi>
+               </l>
+               <l>By <hi>Prizes</hi> in th' <hi>Olympick Game,</hi>
+               </l>
+               <l>Was by themſelves of their good Fortune told,</l>
+               <l>When they their <hi>Garlands</hi> humbly laid</l>
+               <l>Upon their <hi>Aged Father</hi>'s <hi>Head,</hi>
+               </l>
+               <l>With ſuch <hi>exceſs of Joy his Blood was Fir'd,</hi>
+               </l>
+               <l>That in their <hi>Arms</hi> the <hi>Good Old Man Expir'd.</hi>
+               </l>
+            </lg>
+            <lg n="2">
+               <pb n="2" facs="tcp:204709:3"/>
+               <head>II.</head>
+               <l>But yet if ever an exceſs of Joy,</l>
+               <l>Might be allow'd to be no Crime,</l>
+               <l>It muſt be ſurely at this time,</l>
+               <l>A Victory ſo bravely won,</l>
+               <l>And with ſuch Vigour carried on,</l>
+               <l>That <hi>Neptune</hi> did in a full Councel own,</l>
+               <l>Since he the Oceans Government had known,</l>
+               <l>He never ſaw ſuch manly Courage ſhown,</l>
+               <l>As did the <hi>Engliſh</hi> when they <hi>Fought;</hi>
+               </l>
+               <l>And wonder'd by what <hi>Magick Spell,</hi>
+               </l>
+               <l>Which on the Hearts of <hi>Frenchmen</hi> fell,</l>
+               <l>They ſhould in ſuch confuſion run,</l>
+               <l>And would have Sail'd as quick as <hi>Wind</hi> and <hi>Thought.</hi>
+               </l>
+               <l>For ſcarcely was th' <hi>Ingagement</hi> o're,</l>
+               <l>But his <hi>Blew Tritans</hi> from the <hi>Shore,</hi>
+               </l>
+               <l>Took up the <hi>Wrecks</hi> from <hi>tatter'd Ships</hi> did fall,</l>
+               <l>Which they in memory of the Day,</l>
+               <l>Of the auſpicious <hi>Conqu'ring MAY,</hi>
+               </l>
+               <l>Hung up as <hi>Trophies</hi> in their <hi>Maſters watr'y Hall.</hi>
+               </l>
+            </lg>
+            <lg n="3">
+               <head>III.</head>
+               <l>
+                  <hi>Auſpicious Month</hi> indeed, from whence we may,</l>
+               <l>Of our new <hi>Happineſs</hi> the <hi>Aera</hi> Date,</l>
+               <l>Since all the <hi>Storms,</hi> which did of late</l>
+               <l>So threaten us, are now blown quite away.</l>
+               <l>See a moſt pleaſing Scene appears,</l>
+               <l>Of <hi>Rolling, Smiling, Peaceful Years;</hi>
+               </l>
+               <l>When free from <hi>War</hi> and its <hi>Alarms,</hi>
+               </l>
+               <l>Each ſhall his <hi>Property Poſſeſs,</hi>
+               </l>
+               <l>Under the ſhade of <hi>Welcome Peace,</hi>
+               </l>
+               <l>Fearleſs of <hi>Forreign</hi> and <hi>Domeſtick Harms;</hi>
+               </l>
+               <l>For when, (as Poets feign,) <hi>Adromeda,</hi>
+               </l>
+               <l>Chain'd to a <hi>Rock,</hi> ſtood ſtill expos'd</l>
+               <l>To each <hi>Sea-Monſter's</hi> hungry Jaws;</l>
+               <l>So, but of late Fair <hi>Albion</hi> lay,</l>
+               <l>Till <hi>Victory,</hi> like <hi>Perſeus</hi> came,</l>
+               <l>To Reſcue the <hi>Afflicted Dame,</hi>
+               </l>
+               <l>Chas'd the <hi>grim Tyrants</hi> of the Sea,</l>
+               <l>In narrow Creeks to be inclos'd,</l>
+               <l>And to the <hi>Brittiſh Ocean</hi> gave new Laws</l>
+            </lg>
+            <lg n="4">
+               <pb n="3" facs="tcp:204709:3"/>
+               <head>IV.</head>
+               <l>
+                  <hi>Poets</hi> in this, as well as <hi>Painters</hi> ſhare,</l>
+               <l>That what they would attempt to do, they dare,</l>
+               <l>But what kind <hi>Muſe</hi> will now my <hi>Breaſt Inſpire,</hi>
+               </l>
+               <l>With <hi>Waller</hi>'s <hi>Rapture,</hi> or with <hi>Denham</hi>'s <hi>Fire,</hi>
+               </l>
+               <l>Thoſe Noble <hi>Bards</hi> did in immortal Verſe,</l>
+               <l>Some late <hi>Sea Fights</hi> ſo movingly Rehearſe</l>
+               <l>Each line with ſuch new Spirit did they write,</l>
+               <l>Readers in fancy might behold the <hi>Fight,</hi>
+               </l>
+               <l>As plain as if with <hi>Telleſcopes</hi> they ſtood</l>
+               <l>On ſhore, and each minuteſt Action view'd,</l>
+               <l>Of warm <hi>Ingagements</hi> on the <hi>Purple Flood.</hi>
+               </l>
+               <l>Come then my <hi>Muſe,</hi> and furl thy <hi>Fancy</hi>'s Sail,</l>
+               <l>And on the ſtreams of <hi>Helicon,</hi>
+               </l>
+               <l>Launch out with a ſucceſsful Gale.</l>
+               <l>But ah, if in the bold Attempt,</l>
+               <l>(As who from chance can be exempt?)</l>
+               <l>Thou ſhouldſt in ſpite of thy Endeavours fail,</l>
+               <l>'Twill yet of thee, as once of <hi>Phaeton</hi>
+               </l>
+               <l>Be ſaid, altho he was undone</l>
+               <l>In guiding Chariot of the Sun,</l>
+               <l>Yet for the bare attempt ſome praiſe he Won.</l>
+            </lg>
+            <lg n="5">
+               <head>V.</head>
+               <l>Behold, with mighty Pleaſure, <hi>Muſe,</hi> behold,</l>
+               <l>Thoſe <hi>floating Caſtles of the Sea,</hi>
+               </l>
+               <l>Impregnable to <hi>Guns</hi> and <hi>Gold;</hi>
+               </l>
+               <l>Obſerve the <hi>Royal Navy</hi> how ſhe Glides,</l>
+               <l>And Cuts the Silver Froth of yeilding <hi>Tides,</hi>
+               </l>
+               <l>In proud Proceſſion how they go,</l>
+               <l>To meet the <hi>Lurking</hi> and <hi>Abſconding Foe;</hi>
+               </l>
+               <l>For ſeveral Leagues they ſpread their Canvas Wings,</l>
+               <l>A goodly ſight which mighty pleaſure brings,</l>
+               <l>With more Majeſtick Pride they Sail,</l>
+               <l>Than the <hi>Venetian Fleet</hi> by <hi>Bucentoro</hi> Led,</l>
+               <l>When with her mighty <hi>Duke</hi> ſhe goes</l>
+               <l>In pomp the <hi>Adriatick Sea</hi> to <hi>Wed,</hi>
+               </l>
+               <l>See how they <hi>Tide it</hi> with a merry Gale,</l>
+               <l>While from each Deck is heard the Voice</l>
+               <l>Of the loud <hi>Trumpets Martial</hi> noiſe,</l>
+               <pb n="4" facs="tcp:204709:4"/>
+               <l>A ſound which Cowards can inſpire,</l>
+               <l>And in the coldeſt Breaſt ſtrike ſparks of <hi>Fire;</hi>
+               </l>
+               <l>Hark how the <hi>Tritons</hi> on the <hi>Rocks</hi> which dwell,</l>
+               <l>With pleaſure hear the <hi>Warlike ſign,</hi>
+               </l>
+               <l>And each one winds his <hi>Concave ſhell,</hi>
+               </l>
+               <l>To make the <hi>Harmony</hi> ſtill more <hi>Divine.</hi>
+               </l>
+            </lg>
+            <lg n="6">
+               <head>VI.</head>
+               <l>On <hi>Quarter Deck</hi> (the Poſt of Honour) ſtands,</l>
+               <l>The <hi>Hero</hi> who the <hi>Ship</hi> Commands,</l>
+               <l>
+                  <hi>With manly Terror</hi> on his <hi>Brow,</hi>
+               </l>
+               <l>To his <hi>Ships Crew</hi> he ſeems to ſhow,</l>
+               <l>That <hi>Danger</hi> is a word he does not know:</l>
+               <l>Nor come the <hi>Sailors</hi> far behind,</l>
+               <l>Tho moving in a lower Sphere,</l>
+               <l>Each has a Brave and Noble Mind,</l>
+               <l>And ſcorns to <hi>name</hi> or <hi>think</hi> of <hi>Fear;</hi>
+               </l>
+               <l>If one on <hi>Board</hi> they thought there was,</l>
+               <l>Who hid a <hi>Coward</hi> in his <hi>Breaſt,</hi>
+               </l>
+               <l>Quite <hi>Over-board</hi> they'd throw the <hi>Aſs,</hi>
+               </l>
+               <l>Leaſt he ſhould prove <hi>Infectious</hi> to the reſt;</l>
+               <l>With long <hi>Delays</hi> they all impatient grow,</l>
+               <l>And only wiſh to meet the <hi>skulking Foe.</hi>
+               </l>
+            </lg>
+            <lg n="7">
+               <head>VII.</head>
+               <l>
+                  <hi>A Sail, a Sail,— I have a Fleet in ken,</hi>
+               </l>
+               <l>From <hi>Top maſt Head</hi> is heard,— <hi>a welcome ſound,</hi>
+               </l>
+               <l>Which <hi>Ecchos</hi> all the <hi>Navy</hi> round,</l>
+               <l>And with new <hi>Souls</hi> inſpires the <hi>Men,</hi>
+               </l>
+               <l>Each to his <hi>Poſt</hi> in <hi>Order Runs,</hi>
+               </l>
+               <l>As chearfully to <hi>tend the Guns,</hi>
+               </l>
+               <l>As <hi>Shepherd</hi> e're at dawn of Day did creep,</l>
+               <l>O're Verdant Lawns to tend his gentle Sheep.</l>
+               <l>The <hi>Line of Battle Form'd,</hi> each ready ſtands</l>
+               <l>To wait his <hi>Admirals Commands</hi>
+               </l>
+               <l>When he ſhall <hi>Fire,</hi> and when to <hi>Vere</hi> and <hi>Turn,</hi>
+               </l>
+               <l>When to <hi>break through,</hi> and <hi>reſolutely Burn;</hi>
+               </l>
+               <l>And tho a wild <hi>Confuſion</hi> ſeems to Reign,</l>
+               <l>On a Ships Deck when Battles near;</l>
+               <l>Yet one may plainly ſee that ev'ry Man,</l>
+               <l>As little of Diſorder knows, as Fear,</l>
+               <pb n="5" facs="tcp:204709:4"/>
+               <l>With ſpreading <hi>Sails</hi> they ſee the <hi>threatning Foe</hi>
+               </l>
+               <l>Approach; which they as gladly meet,</l>
+               <l>As e're did <hi>Bridegroom</hi> on his <hi>Wedding Night,</hi>
+               </l>
+               <l>Th' <hi>Embraces</hi> of the <hi>Bluſhing Fair,</hi>
+               </l>
+               <l>And wiſh to feel the firſt <hi>Provoking-Blow.</hi>
+               </l>
+            </lg>
+            <lg n="8">
+               <head>VIII.</head>
+               <l>And now begins the <hi>warm Diſpute,</hi>
+               </l>
+               <l>Throwing from ſides of <hi>Oaken Walls,</hi>
+               </l>
+               <l>Their <hi>Death Denouncing Iron Balls,</hi>
+               </l>
+               <l>Each other <hi>Mortally Salute;</hi>
+               </l>
+               <l>See how the <hi>ſhot</hi> their <hi>Sails</hi> and <hi>Riging tears,</hi>
+               </l>
+               <l>While <hi>Splinters</hi> thick as <hi>Hail,</hi>
+               </l>
+               <l>More <hi>Miſchief</hi> do than <hi>Cannon-Ball.</hi>
+               </l>
+               <l>Now a <hi>Broad-ſide</hi> a <hi>Ships Deck</hi> almoſt Clears,</l>
+               <l>For <hi>Bullets</hi> no Diſtinction know</l>
+               <l>Between an <hi>Admiral</hi> and a <hi>Common Tar,</hi>
+               </l>
+               <l>But both promiſcuouſly Bow,</l>
+               <l>When it comes whiſting through the <hi>Air;</hi>
+               </l>
+               <l>Down to the <hi>ſhades</hi> the Dead in cluſters go,</l>
+               <l>While on the <hi>Deck</hi> the <hi>Wounded</hi> lye,</l>
+               <l>And in good earneſt wiſh to <hi>Dye,</hi>
+               </l>
+               <l>Since Life is grown a <hi>Burthen</hi> now;</l>
+               <l>Now <hi>Fate</hi> and <hi>Death</hi> their publick Revels keep,</l>
+               <l>And leave the <hi>Land</hi> a while, to <hi>Frolick</hi> in the <hi>Deep.</hi>
+               </l>
+            </lg>
+            <lg n="9">
+               <head>IX.</head>
+               <l>The Goddeſs <hi>Victory</hi> at Diſtance ſtood,</l>
+               <l>And ſaw the Conteſt on the <hi>Purple Flood,</hi>
+               </l>
+               <l>(Now <hi>Purple</hi> grown indeed, with human <hi>Blood</hi>)</l>
+               <l>At laſt with mighty <hi>haſte</hi> her <hi>Courſe ſhe bore,</hi>
+               </l>
+               <l>And with her <hi>Silver Wings</hi> our <hi>Navy</hi> ſhaddow'd o're,</l>
+               <l>Whilſt all the <hi>Fleet</hi> with Joy the <hi>Omen View'd,</hi>
+               </l>
+               <l>And for her <hi>Welcome,</hi> loud Diſcharges Roar;</l>
+               <l>And tho but juſt before,</l>
+               <l>The <hi>French</hi> with brav'ry kept the <hi>Watry Feild,</hi>
+               </l>
+               <l>Since them does wiſht <hi>Succeſs</hi> forſake,</l>
+               <l>Their <hi>Cannons</hi> now as faint as <hi>Eccho</hi>'s ſpeak;</l>
+               <l>Their <hi>Petards</hi> Languiſh, their <hi>Guns</hi> are weak,</l>
+               <l>And all <hi>Diſpirited</hi> prepare to <hi>Run</hi> or <hi>Yeild.</hi>
+               </l>
+            </lg>
+            <lg n="10">
+               <pb n="6" facs="tcp:204709:5"/>
+               <head>X.</head>
+               <l>But whither, whither, O ye <hi>rigid Stars,</hi>
+               </l>
+               <l>For ſafety ſhall the <hi>Gallick Fleet</hi> retire</l>
+               <l>To diſappoint 'em, ſince the <hi>Winds</hi> conſpire;</l>
+               <l>
+                  <hi>Homewards</hi> their <hi>Courſe</hi> they cannot ſteer,</l>
+               <l>And no kind <hi>Hoſpitable Harbour's</hi> near;</l>
+               <l>No <hi>Turkiſh Bay,</hi> nor <hi>Creek</hi> of <hi>Algerine,</hi>
+               </l>
+               <l>Can on the <hi>Brittiſh Seas</hi> be ſeen;</l>
+               <l>Their <hi>Brethren of the Turbant</hi> would</l>
+               <l>In their Diſtreſs have helpt them if they could,</l>
+               <l>But ah, no <hi>Turkiſh Port</hi> their <hi>Navy</hi> can ſecure,</l>
+               <l>The <hi>Dardanells</hi> are far from <hi>Cape Barfleur.</hi>
+               </l>
+            </lg>
+            <lg n="11">
+               <head>XI.</head>
+               <l>
+                  <hi>Barfleur,</hi> a Word vvhich after ages ſhall</l>
+               <l>To mind vvith grateful Memory recal,</l>
+               <l>And leſſen much the <hi>Fam'd Report</hi>
+               </l>
+               <l>Of <hi>Bullogne</hi> Seige, <hi>Poicteurs,</hi> and <hi>Argencourt,</hi>
+               </l>
+               <l>Places where bravely our <hi>Forefathers Fought,</hi>
+               </l>
+               <l>And home their <hi>Conquering Lawrels</hi> brought,</l>
+               <l>By much <hi>Barfleur</hi> their <hi>Glory</hi> does out-vy,</l>
+               <l>Where we obtain'd a greater Victory,</l>
+               <l>Thoſe <hi>Battles</hi> formerly we won,</l>
+               <l>Perhaps might ſhake the <hi>Gallick Throne;</hi>
+               </l>
+               <l>But the <hi>Convulſion</hi> ſoon was o're,</l>
+               <l>This has done infinitely more,</l>
+               <l>For novv <hi>Determin'd</hi> is the <hi>Fate</hi> of <hi>France,</hi>
+               </l>
+               <l>Its Ruin fixt, its Doom is Seal'd</l>
+               <l>Which has for <hi>Ages</hi> been conceal'd,</l>
+               <l>And all its hopes of <hi>Univerſal Monarchy,</hi>
+               </l>
+               <l>Now <hi>Languiſh</hi> in a dull <hi>Expiring Trance.</hi>
+               </l>
+            </lg>
+            <lg n="12">
+               <head>XII.</head>
+               <l>Their haſty <hi>Flight</hi> my <hi>Muſe</hi> does novv Deſcry,</l>
+               <l>Like <hi>Parthians</hi> ſhooting vvhile they run,</l>
+               <l>Caſting a fearful look behind,</l>
+               <l>Whilſt every loud Diſcharging Gun,</l>
+               <l>Does only bruiſe the <hi>Air</hi> and cruſh the <hi>Wind;</hi>
+               </l>
+               <l>Like <hi>trembling Hares</hi> upon a plain they fly,</l>
+               <l>Double, Redouble and all Courſes try</l>
+               <l>A vvretched Life to ſave,</l>
+               <l>They foam vvith <hi>Anger</hi> and vvith fury <hi>Rave.</hi>
+               </l>
+               <pb n="7" facs="tcp:204709:5"/>
+               <l> They foam with Anger, and with Fury rave,</l>
+               <l>In haſte they run, and we in haſte purſue,</l>
+               <l>Cutting with nimble Keels the <hi>Silver Wave;</hi>
+               </l>
+               <l>And tho they ſwift as Lightning flew,</l>
+               <l>Our Fleet as faſt could Sail, ſince Winds and Waves conſpire,</l>
+               <l>To further ours, and fruſtrate their Deſire.</l>
+            </lg>
+            <lg n="13">
+               <head>XIII.</head>
+               <l>Too weak alaſs, are all Attempts of Verſe;</l>
+               <l>
+                  <hi>Great RUSSELL</hi>'s Glory to rehearſe;</l>
+               <l>Nor can the niceſt Studied Praiſe,</l>
+               <l>Sufficient Trophies to his <hi>Vertue</hi> Raiſe,</l>
+               <l>A Work deſerving Eame and Bays.</l>
+               <l>
+                  <hi>R<g ref="char:V">Ʋ</g>SSELL</hi> a Name, which after times ſhall Bleſs,</l>
+               <l>When they in <hi>Chronicles</hi> ſhall Read,</l>
+               <l>His mighty Actions and his great Succeſs:</l>
+               <l>And what againſt the <hi>Gallick</hi> Fleet he did;</l>
+               <l>Born to revenge his Noble Kinſman's Blood;<note place="margin">
+                     <hi>Lord</hi> Ruſſell.</note>
+               </l>
+               <l>Who to <hi>French</hi> Councils fell a Sacrifice,</l>
+               <l>But he has bravely ſluc'd a flood,</l>
+               <l>Of purple Gore, for ev'ry precious Drop of his.</l>
+            </lg>
+            <lg n="14">
+               <head>XIV.</head>
+               <l>Tho the <hi>Illuſtrious Houſe</hi> of <hi>Bedford</hi> claims,</l>
+               <l>A ſhare of Glory with the firſt,</l>
+               <l>Of all the <hi>Engliſh Nobles</hi> Names;</l>
+               <l>And can as many Trophies ſhow,</l>
+               <l>Upon her Antient <hi>Arms</hi> and <hi>Creſt,</hi>
+               </l>
+               <l>As any Warlike Hero's who were Born,</l>
+               <l>Their Name and Country to adorn.</l>
+               <l>Yet Envy muſt it ſelf allow,</l>
+               <l>Tho dazling Beams of Light her Orb does fill,</l>
+               <l>That by the <hi>Admiral</hi> of the Name,</l>
+               <l>(Darling of Victory and Fame)</l>
+               <l>She ſhines with greater, brighter Luſtre ſtill;</l>
+               <l>And ſure it is a happineſs,</l>
+               <l>Which few great Families does bleſs,</l>
+               <l>But theirs, to whom the mighty Luck does fall,</l>
+               <l>To have produc'd a <hi>Martyr</hi> and an <hi>Admiral.</hi>
+               </l>
+            </lg>
+            <lg n="15">
+               <pb n="8" facs="tcp:204709:6"/>
+               <head>XV.</head>
+               <l>If Subjects we with <hi>Soveraigns</hi> may compare,</l>
+               <l>(Tho' we the mighty Difference muſt allow)</l>
+               <l>With his Victorious <hi>Prince</hi> does <hi>Ruſſell</hi> ſhare</l>
+               <l>In all the Hardſhips and Fatigues of War,</l>
+               <l>If Heavenly Bodies, as the Learned hold,</l>
+               <l>Inſencibles do move affairs below,</l>
+               <l>Who without wonder can behold,</l>
+               <l>A Noble <hi>General</hi> diſpence,</l>
+               <l>Through a vaſt Camp his warning Influence,</l>
+               <l>Whileſt every Warlike Soldiers Limb,</l>
+               <l>Seems but to be a part of him.</l>
+               <l>Juſt ſo at Sea, the Sailers one and all,</l>
+               <l>Each Morning bleſs their <hi>much Lord Admiral;</hi>
+               </l>
+               <l>To doubt of wiſht Succeſs what Mortal can,</l>
+               <l>When too ſuch Heroes do the Cauſe maintain,</l>
+               <l>
+                  <hi>Naſſaw</hi> at Land, and <hi>Ruſſel</hi> on the Main.</l>
+            </lg>
+            <lg n="16">
+               <head>XVI.</head>
+               <l>Hard Fate of Generals in War,</l>
+               <l>Who ſcarce doe Nature's common Bleſſings ſhare,</l>
+               <l>When our brave Admiral all day,</l>
+               <l>In Fire and Smoke maintain'd the fray,</l>
+               <l>One would have thought that <hi>Balmy Sleep</hi> at night,</l>
+               <l>Should his tir'd Sences to repoſe invite,</l>
+               <l>But ſtill his Manly Cares deny</l>
+               <l>Reſt to his Thoughts, or Slumber to his Eye;</l>
+               <l>But yet behold! to recompence</l>
+               <l>The Burthen of his <hi>weary Sence,</hi>
+               </l>
+               <l>A <hi>Night-piece, Victory</hi> prepares,</l>
+               <l>To pleaſe his Eyes, and gratifie his Ears.</l>
+               <l>Three Ships at diſtance, like three <hi>Meteors</hi> ſhow,</l>
+               <l>Dreſt all in Flames from poop to prow,</l>
+               <l>By Gun-Powder's unlucky Blow,</l>
+               <l>Whilſt the poor Mortals did inhabit there,</l>
+               <l>By Deſtinies too rigid Frown,</l>
+               <l>Are doom'd at once to Burn and Drown,</l>
+               <l>Thrown up like <hi>Rockets</hi> in the Air,</l>
+               <l>Then down again into the Deep with wild Deſpair.</l>
+            </lg>
+            <lg n="17">
+               <pb n="9" facs="tcp:204709:6"/>
+               <head>XVII.</head>
+               <l>For little Service little Praiſe is due,</l>
+               <l>But if the Thoughts Reverſe we view,</l>
+               <l>What ſtore of <hi>Lawrels</hi> will not fall,</l>
+               <l>Upon the Brows of conqu'ring <hi>Delavall;</hi>
+               </l>
+               <l>For when by winds and <hi>Brittiſh</hi> Fury chas'd,</l>
+               <l>To <hi>Cape de Wyke</hi> the French for ſhelter got,</l>
+               <l>And on that little watry ſpot,</l>
+               <l>Eſteem'd themſelves ſecure, and danger paſt,</l>
+               <l>Then the <hi>Vice Admiral of the Red,</hi>
+               </l>
+               <l>Came with his Squadron well prepar'd,</l>
+               <l>To do whatever Courage dar'd.</l>
+               <l>They ſaw the Skulking Ships in Corners lie,</l>
+               <l>As if to move they were afraid;</l>
+               <l>And ſince the Tide admittance does deny,</l>
+               <l>To Ships of Burthen they prepar'd,</l>
+               <l>With Boats well Man'd, and Fire-ſhips to declare</l>
+               <l>Defiance to the Enemy:</l>
+               <l>See, ſee, the wiſh'd deſir'd Succeſs,</l>
+               <l>Which does their bold endeavour bleſs.</l>
+               <l>Behold, the flames from <hi>Gallick Decks,</hi> which riſe</l>
+               <l>To <hi>Victory,</hi> a Grateful Sacrifice,</l>
+               <l>Whilſt Rigid Fate all Succours ſtill denies.</l>
+            </lg>
+            <lg n="18">
+               <head>XVIII.</head>
+               <l>Behold the <hi>Glory of their Fleet,</hi>
+               </l>
+               <l>The <hi>Royal-Sun</hi> now all on flame,</l>
+               <l>A moſt unlook'd for <hi>Exit</hi> meet,</l>
+               <l>While with impatience the <hi>gay Gilded Dame.</hi>
+               </l>
+               <l>Views the Incroachments of the Fire,</l>
+               <l>Upon her Gallant rich Attire:</l>
+               <l>She does with paſſion rave, with anger weep,</l>
+               <l>And as <hi>ſhe</hi> downward goes,</l>
+               <l>Her Hiſſing Curſes throws;</l>
+               <l>Then ſinks a Hundred Fathom in the deep,</l>
+               <l>The <hi>Heavenly Sun,</hi> when he has run his Race</l>
+               <l>About the Globe, yet every welcome Night,</l>
+               <l>Plunges in <hi>Thetis</hi> watrey ſoft embrace,</l>
+               <l>Next Morning riſing with new Rays of Light,</l>
+               <l>But the <hi>French Sun,</hi> once darling of their Eyes,</l>
+               <l>Is ſet, and never never more will riſe;</l>
+               <pb n="10" facs="tcp:204709:7"/>
+               <l>So vain, ſhort liv'd, and Tranſitory,</l>
+               <l>Are all the Pomps and Shows of humane Glory.</l>
+            </lg>
+            <lg n="19">
+               <head>XIX.</head>
+               <l>If he who burnt <hi>Diana</hi>'s Temple, ſtands,</l>
+               <l>Recorded in the <hi>Book of Fame,</hi>
+               </l>
+               <l>(The bold Attempt of an inglorious Slave,</l>
+               <l>That was a Villains Act, but this a brave)</l>
+               <l>Can be to <hi>Heath</hi> denyed a Glorious Name,</l>
+               <l>Who dar'd to ſet the <hi>Royal Sun</hi> on Flame;</l>
+               <l>The <hi>Conquerant</hi> a noble Veſſel made,</l>
+               <l>From Head to Stern, a heap of burning Brands,</l>
+               <l>With Fury ſee the Boats invade;</l>
+               <l>The <hi>Admirable,</hi> who although <hi>ſhe</hi> makes</l>
+               <l>Some faint reſiſtance of the others Fate partakes;</l>
+               <l>
+                  <hi>Fowlis</hi> his Ship, deſerv'd a better Fate,</l>
+               <l>(The bold may be unfortunate)</l>
+               <l>For in the hotteſt of the Fight,</l>
+               <l>When Clouds of Smoak made Artificial Night,</l>
+               <l>He ſlackned not a Joynt, nor ſhrank a Nerve,</l>
+               <l>And though denied his wiſh'd Succeſs,</l>
+               <l>Yet to his Praiſe this Truth we muſt confeſs,</l>
+               <l>Bravely to dare is bravely to deſerve.</l>
+            </lg>
+            <lg n="20">
+               <head>XX.</head>
+               <l>Can nothing ſcape diſcerning <hi>RUSSELL</hi>'s Eye,</l>
+               <l>Who ſure has got a Writ from Deſtiny,</l>
+               <l>The <hi>Gallick Fleet</hi> to overturn,</l>
+               <l>To Admiral <hi>Rook</hi> he Order gives,</l>
+               <l>In <hi>Cape le Hogue,</hi> their Ships to burn,</l>
+               <l>Who the Commiſſion joyfully Receives,</l>
+               <l>And boldly Ventures on the Enterprize,</l>
+               <l>Six over night in flames expire,</l>
+               <l>And Morrows Dawn ſix more obſerves on fire,</l>
+               <l>Whilſt <hi>Engliſh</hi> do with pleaſure ſee</l>
+               <l>This <hi>Sea Burnt-Offering</hi> made to <hi>Victory,</hi>
+               </l>
+               <l>A Grateful <hi>Morning,</hi> and an <hi>Evenings Sacrifice;</hi>
+               </l>
+               <l>But ſtill to make the Vict'ry more compleat,</l>
+               <l>With their own Guns the Enemy we beat;</l>
+               <l>From their Mud Plat-forms, now by Fates Decree,</l>
+               <l>Succeſſeſs grown, both by the Land and Sea.</l>
+               <pb n="11" facs="tcp:204709:7"/>
+               <l>Tell me who can, my <hi>labouring Muſe</hi>
+               </l>
+               <l>
+                  <hi>Aſhby</hi>'s and <hi>Shovel</hi>'s Praiſe refuſe;</l>
+               <l>Rais'd by a <hi>Prince,</hi> who beſt their Merits knew,</l>
+               <l>Who found them always brave, and always true:</l>
+               <l>To <hi>Honour</hi>'s <hi>Temple</hi> we may truly ſay,</l>
+               <l>
+                  <hi>Deſert</hi> now only leads the way,</l>
+               <l>And not as heretofore,</l>
+               <l>When Intereſt, Bribes, and blind unthinking chance</l>
+               <l>Did thouſands more then <hi>Worth</hi> advance,</l>
+               <l>And th' greateſt ſhare in Court Preferments bore,</l>
+               <l>Cautious in Council, they prepare</l>
+               <l>For all the worſt events in War:</l>
+               <l>But when the <hi>wiſh'd for Minute</hi> does invite,</l>
+               <l>And the <hi>loud Cannon</hi> calls to fight,</l>
+               <l>Fearleſs of Danger on their Decks they ſtood,</l>
+               <l>Ready to Sacrifiee their Blood,</l>
+               <l>For the <hi>beſt Cauſe,</hi> and their dear Countrys good.</l>
+            </lg>
+            <lg n="21">
+               <head>XXII.</head>
+               <l>Who without Sorrow, and a kind Regret,</l>
+               <l>Can think of <hi>Daring Carter</hi>'s Fate?</l>
+               <l>Or when he hears how valiant <hi>Haſtings</hi> dy'd,</l>
+               <l>Refuſe the Tribute of a Tear,</l>
+               <l>Fate ev'n in Death would not their loves divide,</l>
+               <l>Who to each other were in Life ſo dear,</l>
+               <l>The Verdant <hi>Lawrels</hi> heretofore,</l>
+               <l>Which they upon their Temples wore;</l>
+               <l>Now ſince their Deaths appear more freſh and green,</l>
+               <l>And their brave actions, which before</l>
+               <l>The World in Whiſpers only car'd to Name,</l>
+               <l>Is now become the welcome Talk of Fame,</l>
+               <l>Who to the World their Daring Acts will tell,</l>
+               <l>While Sighs and Tears ring out their Funeral Knell.</l>
+            </lg>
+            <lg n="22">
+               <head>XXII.</head>
+               <l>Nor muſt the <hi>Common Seamen</hi> want their Praiſe,</l>
+               <l>Who more than common Bravery ſhow'd,</l>
+               <l>And by undaunted Courage did expreſs</l>
+               <l>The Love which their Countries cauſe they ow'd:</l>
+               <l>For <hi>one and all</hi> they firmly ſtood,</l>
+               <l>Each free from Cowardiſe or Fear,</l>
+               <l>To <hi>Random Shots</hi> expos'd his Boſom bare;</l>
+               <l>Like Wall of Braſs, and not of Fleſh and Blood;</l>
+               <pb n="12" facs="tcp:204709:8"/>
+               <l>And tho' the boyſterous Seas,</l>
+               <l>Their proper Element for fighting is;</l>
+               <l>Yet when near <hi>Coaſt of Normandy</hi> they drew,</l>
+               <l>And had the Army then in view,</l>
+               <l>Impatient of Delays they all implore,</l>
+               <l>To try their fortune on the ſhoar;</l>
+               <l>For fluſh'd with late ſucceſs they did not doubt</l>
+               <l>To give the Enemy a total rout,</l>
+               <l>But their Commander wiſely check'd their Rage,</l>
+               <l>Not ſuff'ring them ſo raſhly to ingage,</l>
+               <l>Tho' late Defeats did more Defeats preſage.</l>
+            </lg>
+            <lg n="24">
+               <head>XXIV.</head>
+               <l>Heark in loud Conſort how the <hi>Trumpets</hi> joyn,</l>
+               <l>A grateful ſound to hear,</l>
+               <l>Which does to ev'ry liſtning Ear,</l>
+               <l>The welcome News of Vict'ry bear;</l>
+               <l>News truly Charming and Divine,</l>
+               <l>Which may with Songs ſupply the <hi>Mighty Nine,</hi>
+               </l>
+               <l>Whilſt <hi>Fame</hi> with ſtrong and active Lungs,</l>
+               <l>Borrows a Thouſand Thouſand Tongues,</l>
+               <l>On <hi>Albions</hi> happy ſhores to tell,</l>
+               <l>How a <hi>French Fleet</hi> eſteem'd invincible,</l>
+               <l>To <hi>Brittiſh Rage,</hi> a Grateful <hi>Victim</hi> fell.</l>
+            </lg>
+            <lg n="25">
+               <head>XXV.</head>
+               <l>
+                  <hi>Hail! Welcome News,</hi> with treble welcome <hi>Hail,</hi>
+               </l>
+               <l>No little Infant e're was ſeen,</l>
+               <l>The Milk from Breaſt more greedily to ſuck in,</l>
+               <l>Than we with pleaſure catch thy wond'rous tale,</l>
+               <l>Suſpence that torture of the Mind,</l>
+               <l>Long had our Thoughts in doubts dark Cave confin'd,</l>
+               <l>Yet hope the gay <hi>Fore-runner</hi> of <hi>Succeſs,</hi>
+               </l>
+               <l>With gladſom ſmiles would often bleſs</l>
+               <l>Our Anxious Souls until at laſt,</l>
+               <l>We did the <hi>Luſcious Banquet</hi> taſte,</l>
+               <l>Who the exalted pleaſure can expreſs,</l>
+               <l>When <hi>Tidings</hi> of a <hi>Victory,</hi>
+               </l>
+               <l>Confirm'd by all convincing certainty,</l>
+               <l>From dark Suſpicions did our Souls Releaſe;</l>
+               <l>The Joys, bleſs'd Souls <hi>unbodied</hi> feel,</l>
+               <l>Tho' far above our pow'r to tell,</l>
+               <l>Yet we in part their Mighty Tranſports gueſs;</l>
+               <l>By lively <hi>Mirth</hi> which ſtill controuls,</l>
+               <pb n="13" facs="tcp:204709:8"/>
+               <l>And keeps her Revels in our Souls,</l>
+               <l>So great, that words cannot its Love expreſs.</l>
+            </lg>
+            <lg n="26">
+               <head>XXVI.</head>
+               <l>The <hi>thinking States-man,</hi> when the News he hears,</l>
+               <l>How e're his Thought may be employ'd,</l>
+               <l>In projects for his Countries good,</l>
+               <l>Now lays aſide the <hi>weight of publick cares,</hi>
+               </l>
+               <l>And with a Mind unbent, prepares</l>
+               <l>To ſhare the common Joy, ſince now</l>
+               <l>In Mirth to Revel, <hi>Stoicks</hi> would allow,</l>
+               <l>The <hi>Plodding Man of Buſineſs</hi> too;</l>
+               <l>Smooths up the wrinckles of his Brow,</l>
+               <l>Puts on a chearful look, and ſeems to ſay,</l>
+               <l>His Mind ſhall now <hi>keep Holy-day;</hi>
+               </l>
+               <l>The <hi>Ruſtick</hi> leaves his weary Plough,</l>
+               <l>And on a Lovely Verdant Green,</l>
+               <l>Are <hi>Tytirus</hi> and <hi>Phillis</hi> ſeen,</l>
+               <l>Dancing with other <hi>Nymphs</hi> and <hi>Swains,</hi>
+               </l>
+               <l>Forgetting all their Amorous pains,</l>
+               <l>They trip it o're the Lawns, &amp; frisk upon the Plains.</l>
+               <l>All Men from high to low degree,</l>
+               <l>Are fill'd with Mirth and Jollity,</l>
+               <l>And <hi>Albion</hi> enjoys an <hi>Univerſal Jubilee.</hi>
+               </l>
+            </lg>
+            <lg n="27">
+               <head>XXVII.</head>
+               <l>Amidſt the <hi>Publick Triumphs,</hi> yet appear</l>
+               <l>Some Angry Looks, and Clouded Brows,</l>
+               <l>Faces, which Melancholy wear,</l>
+               <l>And who the wond'rous Riddle knows,</l>
+               <l>That Diſcontent ſhould have a Seat,</l>
+               <l>So near, where <hi>all the Sons of Joy</hi> are met:</l>
+               <l>Wonder no more, but pity rather</l>
+               <l>This envious Crooking Murmuring Brood,</l>
+               <l>With Hopes uneertain as the Weather,</l>
+               <l>Foes to their own, and to the <hi>Publick good:</hi>
+               </l>
+               <l>But let the <hi>Brave and Loyal Heart,</hi>
+               </l>
+               <l>Inſenſible of Envy's ſmart;</l>
+               <l>For <hi>Mighty Joy</hi> allow a mighty Scope,</l>
+               <l>And ſtill for more and more Succeſſes hope.</l>
+            </lg>
+            <lg n="28">
+               <head>XXVIII.</head>
+               <l>But muſt the <hi>mighty Joy</hi> be known,</l>
+               <l>To <hi>Albion's</hi> happy Land alone?</l>
+               <l>
+                  <hi>No, No,</hi> Induſtrious <hi>Fame</hi> takes care,</l>
+               <pb n="14" facs="tcp:204709:9"/>
+               <l>To ſpread the <hi>Tidings</hi> far and near,</l>
+               <l>Which does, as diff'rent Intreſt guides,</l>
+               <l>Their Souls with different Paſſions fill,</l>
+               <l>And firſt, with winged ſpeed ſhe glides,</l>
+               <l>To great <hi>Naſſaw,</hi> the News to tell,</l>
+               <l>Whom Heav'n indulgently does bleſs</l>
+               <l>In all his actions with a wiſht Succeſs;</l>
+               <l>The welcome News he ſoon Communicates,</l>
+               <l>To's Princely <hi>Allies</hi> and <hi>Confederates;</hi>
+               </l>
+               <l>Who knowing that the Fortune of their Arms,</l>
+               <l>Depend upon the Fate of <hi>his:</hi>
+               </l>
+               <l>Bleſs the <hi>kind Omen</hi> which alarms,</l>
+               <l>With Pannick fear, th' Inſulting Foe,</l>
+               <l>Who with a ſtrange Amazement hear</l>
+               <l>Their ill Succeſs, in <hi>Naval</hi> War,</l>
+               <l>Dreading by Land another <hi>Fatal Blow.</hi>
+               </l>
+            </lg>
+            <lg n="29">
+               <head>XXIX.</head>
+               <l>Go on, <hi>Great Prince,</hi> till thy great Actions ſwell</l>
+               <l>So very high, that even <hi>Fame</hi>
+               </l>
+               <l>Shall think't a <hi>Talk almoſt impoſſible,</hi>
+               </l>
+               <l>To after Ages half thy Acts to tell,</l>
+               <l>But ah! what <hi>ſpot of Earth</hi> is there,</l>
+               <l>Upon this lower Globes <hi>Terreſtrial Sphere,</hi>
+               </l>
+               <l>Which has not heard thy Glorious Name?</l>
+               <l>Thou haſt a Thouſand Actions done,</l>
+               <l>Which will for ever make thee known,</l>
+               <l>Whilſt <hi>Princes,</hi> who by diff'rent arts have try'd</l>
+               <l>To purchaſe <hi>Laſting Fame,</hi> have been deny'd,</l>
+               <l>And as <hi>inglorious</hi> liv'd, <hi>ingloriouſly</hi> have dy'd.</l>
+            </lg>
+            <lg n="30">
+               <head>XXX.</head>
+               <l>But whilſt abroad he ſeeks Renown by Arms,</l>
+               <l>Can we at home forget <hi>Maria</hi>'s Charms?</l>
+               <l>Who while her <hi>Royal Conſort</hi> ſhares</l>
+               <l>The long Fatigue of Forreign Wars,</l>
+               <l>Employs her moſt Induſtrious Cares;</l>
+               <l>For <hi>Albion</hi>'s ſafety too too happy Iſle,</l>
+               <l>While on thy Banks ſuch Conſtelations ſmile.</l>
+               <l>But oh how bright will be the Sphere,</l>
+               <l>When after all the longer fatigues,</l>
+               <l>Of War and Stratagems cloſe Intrigues:</l>
+               <l>
+                  <hi>WILLIAM</hi> and <hi>MARY</hi> ſhall thro' <hi>Europe</hi> be</l>
+               <l>Eſteem'd the <hi>Arbiters</hi> of Peace and Liberty.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:204709:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
